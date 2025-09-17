@@ -25,7 +25,7 @@ const App = () => {
       <div className="bg-[#1f2632ff] w-full h-screen flex justify-center items-center px-[5%]">
         <div className="bg-[#323a49ff] flex flex-col items-center rounded-lg p-6 w-full sm:w-[35%]">
           <div className="flex flex-col items-center gap-4 ">
-            <span className="text-[#52ffa8ff] text-xs">{`ADICE ${advice.id}`}</span>
+            <span className="text-[#52ffa8ff] text-xs">{`ADVICE ${advice.id}`}</span>
             <p className="text-[#cee3e9ff] font-medium text-center">
               {advice.advice}
             </p>
